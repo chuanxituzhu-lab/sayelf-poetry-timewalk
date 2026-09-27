@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.1 — 2026-09-27
+
+- Added a bilingual README and a versioned public Starter ZIP download.
+- Made the README's latest-download link resolve to the newest stable GitHub Release asset.
+- Kept the v1.3.0 introduction and v1.2 single-file demo clearly versioned inside the package.
+- Reaffirmed that the complete workbench, full catalog, complete import Skill, and uncleared assets are excluded from public distribution.
+- No changes to the WebUI demo behavior or commercial package contents.
+
 ## v1.3.0 — 2026-09-23
 
 - Published the public v1.3 introduction page as the current Demo / Starter entry point.

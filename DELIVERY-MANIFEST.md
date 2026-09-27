@@ -1,41 +1,40 @@
-# Delivery Manifest — v1.3.0 Public Demo / Starter
+# Delivery Manifest — v1.3.1 Public Starter Distribution
 
 ## Release identity
 
-- Product: SayElf Poetry Immersion Engine
-- Release: v1.3.0 public-demo and Starter adaptation
-- GitHub repository: `chuanxituzhu-lab/sayelf-poetry-immersion-engine`
-- Tag: `v1.3.0`
-- Commit message: `release: publish public demo v1.3.0`
-- Data boundary: only files listed as `Public` below are intended for GitHub.
+- Product: SayElf Poetry Timewalk / Poetry Immersion Engine
+- Release: `v1.3.1` public distribution update
+- GitHub repository: `chuanxituzhu-lab/sayelf-poetry-timewalk`
+- Tag: `v1.3.1`
+- Release asset: `sayelf-poetry-timewalk-public-starter-v1.3.1.zip`
+- Public download: `https://github.com/chuanxituzhu-lab/sayelf-poetry-timewalk/releases/latest/download/sayelf-poetry-timewalk-public-starter-v1.3.1.zip`
+- Scope: bilingual documentation and a versioned repackaging of assets already classified Public; no full product feature update.
 
-## Included files
+## Included in the public ZIP
 
 | Path | Classification | Purpose |
 | --- | --- | --- |
-| `README.md` | Public | Public overview and usage path |
-| `SKILL.md` | Public | Core workflow and evidence labels |
-| `LICENSE` | Public | MIT license inherited from the repository |
-| `01-core-product/webui/poetry-immersion-engine-v1.2-public-demo.html` | Public legacy demo | Self-contained historical WebUI demo |
-| `01-core-product/webui/poetry-immersion-engine-v1.3-public-intro.html` | Public | v1.3 overview without the complete Skill ZIP |
-| `docs/C-E-S-evidence-chain.md` | Public | Evidence-chain guidance |
-| `examples/README.md` | Public | Local demo usage notes |
-| `assets/README.md` | Public | Asset and contact boundary |
-| `03-sales-materials/` | Public | Non-sensitive public sales copy |
-| `02-commercial-packages/` | Public placeholder | Package boundary only; no paid package contents |
-| `04-ops-extension-archive/` | Public boundary note | Deferred CRM/ROI/A-B scope note |
-| `.github/ISSUE_TEMPLATE/commercial-inquiry.md` | Public | Purchase and customization entry point |
+| `README.md` | Public | Bilingual product boundary, setup, and latest-version download |
+| `CHANGELOG.md` | Public | Version history and release scope |
+| `LICENSE` | Public | Repository code/documentation license notice |
+| `SKILL.md` | Public Starter | Abbreviated workflow; not the full import Skill |
+| `01-core-product/webui/poetry-immersion-engine-v1.3-public-intro.html` | Public | Public product introduction |
+| `01-core-product/webui/poetry-immersion-engine-v1.2-public-demo.html` | Public legacy demo | Existing self-contained demo, retained with its true version label |
+| `docs/C-E-S-evidence-chain.md` | Public | Evidence-chain method note |
+| `examples/README.md` | Public | Local demo use notes |
+| `assets/README.md` | Public | Public logo provenance and asset boundary |
+| `PUBLIC-PACKAGE-MANIFEST.json` | Public | SHA-256 and size for each packaged file (excluding the manifest itself) |
 
-## Excluded from public release
+## Explicitly excluded
 
-- Real WeChat QR image and personal contact identifiers.
-- Credentials, API keys, tokens, cookies, or private URLs.
-- Complete v1.3 Overall Skill, Starter/Creator/Pro commercial packages.
-- Full poetry datasets, private customer material, and unpublished sales records.
-- Deferred CRM, ROI, A/B-testing, and operations implementations.
+- Complete local workbench H5, full poetry catalog, and data-import tooling.
+- Commercial Skill/portable packages and their full template assets.
+- Unverified or private images, third-party commentary, customer material, personal contact data, secrets, tokens, and private URLs.
+- Creator/Pro paid package contents, private prompt libraries, and unpublished sales records.
 
-## Verification record
+## Artifact integrity
 
-- Public v1.3 page contains no complete Skill ZIP download button.
-- The public tree contains no PPTX, `PPT结构.md`, ZIP, private QR image, credentials, private URL, or complete commercial package.
-- The public tree is reviewed for contact, secret, and private-data markers before push.
+- Release asset size: `5,885,259` bytes.
+- Release asset SHA-256: `d64a81fffe042794c49598dbaa8ce7767b6e2a184fac6623a9008f04d37ae69c`.
+- Internal file manifest: generated from the exact nine-file ZIP payload; every size and SHA-256 is checked before upload.
+- Release file contains only the allowlisted public paths above; it does not contain a copy of the excluded local artifacts.
