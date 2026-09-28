@@ -1,8 +1,8 @@
-# SayElf Poetry Immersion Engine · Public Starter Skill v1.3.0
+# SayElf Poetry Immersion Engine · Public Starter Skill v1.3.2
 
 ## Purpose
 
-Transform one classical Chinese poem into a compact, evidence-aware content delivery pack for human review and creative production. This public Starter v1.3.0 is intentionally abbreviated; the complete v1.3 Overall Skill and Creator/Pro packages are commercial deliverables outside this repository.
+Transform one classical Chinese poem into a compact, evidence-aware content delivery pack for human review and creative production. This public Starter v1.3.2 is intentionally abbreviated; the complete Overall Skill and Creator/Pro packages are separate commercial deliverables.
 
 ## Core sequence
 
@@ -41,3 +41,5 @@ Do not add CRM, ROI, A/B testing, automated publishing, or performance claims to
 - `Fact` — a claim supported by a named source or explicit project evidence.
 
 When evidence is incomplete, keep the label visible and route the item to human review.
+
+Evidence may come from primary texts, editions, classical commentary, modern scholarship, and attributed contemporary interpretation. Keep source roles separate: a library catalog or search index is a discovery/metadata source, not proof of an uninspected passage. Link substantive claims to precise source locators and preserve uncertainty. See [the evidence-source index](docs/evidence-source-index.md).

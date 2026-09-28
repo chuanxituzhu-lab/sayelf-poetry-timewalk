@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.3.2 — 2026-09-28
+
+- Added a public bilingual evidence-source index covering primary sources, editions, classical commentary, modern scholarship, contemporary interpretation, library catalogs, and digitized items.
+- Clarified claim-level citations and the boundary between discovery metadata and inspected evidence.
+- Updated the bilingual README, Starter Skill, and versioned public ZIP target.
+- No changes to the WebUI demo, poem catalog, or commercial package contents.
+
 ## v1.3.1 — 2026-09-27
 
 - Added a bilingual README and a versioned public Starter ZIP download.
